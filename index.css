@@ -34,6 +34,18 @@ footer {
     background-color: darkgray;
     color: lightgray;
     justify-content: center;
+}
 
-   
+.openCamera {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 50vw;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
 }
