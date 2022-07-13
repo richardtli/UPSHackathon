@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: teal;
+    color: white;
+    height: 10vh;
+}
+
+ul {
+    margin: 0;
+}
