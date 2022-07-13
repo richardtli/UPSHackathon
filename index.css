@@ -1,5 +1,13 @@
-body {
+* { 
+    padding: 0; 
     margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 10vh;
 }
 
 header {
@@ -15,6 +23,17 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 3vw;
-    margin: 0;
     list-style: none;
+}
+
+footer {
+    margin-top: auto;
+    min-height: 7vh;
+    display: flex;
+    align-items: center;
+    background-color: darkgray;
+    color: lightgray;
+    justify-content: center;
+
+   
 }
